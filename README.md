@@ -34,5 +34,3 @@
 例如最后的12，【"cookie":"wanmen"】代表当序号12功能需要读取cookie时，将会读取同目录下的wanmen.txt的内容作为这个序号功能的cookie；【"token":"wanmentk"】代表当序号12功能需要读取token时，将会读取同目录下的wanmentk.txt的内容作为这个序号功能的token
 默认所有键名都为cookie，如需要token时会额外进行提示
 备注：在进行cookie配置文件编辑时，建议使用 https://www.json.cn 进行编辑，编辑完成后再复制到【cookie.json】内保存
-
-![抓取截图](https://attach.52pojie.cn/forum/202011/11/200938c6053573mmm3m5yw.jpg)  
