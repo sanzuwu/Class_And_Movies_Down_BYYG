@@ -30,7 +30,7 @@
     }
 }
 ```
-前面的键代表软件内的序号，例如1代表序号1功能读取这部分内容，【"cookie":"51cto"】代表当序号1功能需要读取cookie时，将会读取同目录下的51cto.txt的内容作为这个序号功能的cookie。
-例如最后的12，【"cookie":"wanmen"】代表当序号12功能需要读取cookie时，将会读取同目录下的wanmen.txt的内容作为这个序号功能的cookie；【"token":"wanmentk"】代表当序号12功能需要读取token时，将会读取同目录下的wanmentk.txt的内容作为这个序号功能的token
+前面的键代表软件内的序号，例如1代表序号1功能读取这部分内容，【"cookie":"cookie"】代表当序号1功能需要读取cookie时，将会读取同目录下的cookie.txt的内容作为这个序号功能的cookie。
+例如最后的12，【"cookie":"cookie"】代表当序号12功能需要读取cookie时，将会读取同目录下的cookie.txt的内容作为这个序号功能的cookie；【"token":"token"】代表当序号12功能需要读取token时，将会读取同目录下的token.txt的内容作为这个序号功能的token
 默认所有键名都为cookie，如需要token时会额外进行提示
 备注：在进行cookie配置文件编辑时，建议使用 https://www.json.cn 进行编辑，编辑完成后再复制到【cookie.json】内保存
